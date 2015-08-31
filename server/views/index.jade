@@ -1,1 +1,9 @@
-!!!5
+extends ../includes/layout
+
+block main-content
+    section.content
+        h1 Hello World
+
+        div(ng-view)
+        h2= mongoMessage
+
